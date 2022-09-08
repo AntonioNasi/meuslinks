@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/sepia-plasterboard-texture_95678-405.jpg);
+}
+
+header{
+    max-width: 600px;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+header .cx-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin: 0px auto 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .cx-img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+header .name h1{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.links{
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+}
+
+.links .cx-links{
+    display: block;
+}
+
+.links .cx-links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px;
+    padding: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.365);
+    border-radius: 20px;
+}
+
+.links .cx-links a:hover{
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.365);
+}
+
+.working{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.working span{
+    font-size: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    animation: gira;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gira {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.working p{
+    font-size: 12px;
+}
