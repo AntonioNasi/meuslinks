@@ -18,14 +18,15 @@ header{
 header .cx-img{
     width: 140px;
     height: 140px;
+    border: solid 1px #000000;
     border-radius: 100%;
     margin: 0px auto 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 header .cx-img img{
     width: 140px;
     height: 140px;
+    padding: 5px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
